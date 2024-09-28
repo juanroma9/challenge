@@ -1,0 +1,20 @@
+appConfig:
+
+  fileUploadConfig:
+    contentType:
+      - "text/csv"
+    separator:
+      - ","
+      - ";"
+      - "|"
+    encoding: "utf-8"
+
+  dbMySQLConfig:
+    driverName: "mysql"
+    dataSourceName: "root:12345@tcp(192.168.128.4:3306)/challenge"
+
+  endpointConfig:
+    apiItems: "https://api.mercadolibre.com/items/"
+    apiSeller: "https://api.mercadolibre.com/users/"
+    apiCategory: "https://api.mercadolibre.com/categories/"
+    apiCurrency: "https://api.mercadolibre.com/currencies/"
